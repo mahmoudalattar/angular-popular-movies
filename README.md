@@ -1,6 +1,16 @@
+
 # AngularPopularMovies
 
+Angular popular movies with search and movie details (based on moviedb.org https://developers.themoviedb.org/3)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+
+## Home Page
+
+![HomePage](https://user-images.githubusercontent.com/30865587/168505556-9f861a33-f3d8-471f-8f7a-deb80b7cdc2a.png)
+
+## Movie Details Modal
+
+![MovieDetails](https://user-images.githubusercontent.com/30865587/168505536-32528a4a-ef5f-4bf1-b0f2-b3ed11ef2ce1.png)
 
 ## Development server
 
