@@ -1,0 +1,20 @@
+<div>
+    <div class="row px-2 pt-2 pagination">
+        <pagination-controls *ngIf="movies" 
+        [responsive]="true" 
+        previousLabel="Previous"
+        nextLabel="Next"
+        (pageChange)="handlePageChange($event)">
+        </pagination-controls>
+    </div>
+    <app-movies-grid [movies]="movies" [params]="{currentPage:currentPage, totalItems:totalItems}"></app-movies-grid>
+    <div class="row px-2 pt-2 pagination">
+        <pagination-controls *ngIf="movies" 
+        [responsive]="true" 
+        previousLabel="Previous"
+        nextLabel="Next"
+        (pageChange)="handlePageChange($event)">
+        </pagination-controls>
+    </div>
+</div>
+

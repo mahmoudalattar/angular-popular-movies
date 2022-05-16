@@ -1,0 +1,7 @@
+
+<div class="row px-2" *ngIf="movies; else miniSpinner">
+  <app-movie-grid-item class="col-md-3 col-sm-6 col-12 mb-2 p-2" *ngFor="let movie of movies | paginate: { itemsPerPage: 20, currentPage: params.currentPage, totalItems: params.totalItems }" [movie]="movie" [genreList]="genreList"> </app-movie-grid-item>
+</div>
+<ng-template #miniSpinner>
+  <div class="spinner-grow spinner-grow-sm" role="status"></div>
+</ng-template>
